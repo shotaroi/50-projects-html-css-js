@@ -13,7 +13,7 @@ next.addEventListener('click', () => {
 });
 
 prev.addEventListener('click', () => {
-    if (currentActive > circles.length) {
+    if (currentActive > 0) {
         currentActive--;
     }
     update();
